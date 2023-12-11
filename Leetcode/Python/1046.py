@@ -4,7 +4,6 @@ class Solution(object):
         :type stones: List[int]
         :rtype: int
         """
-        from heapq import heapify, heappop, heappush
         heap = [-x for x in stones]
         while len(heap) > 1:
             heapify(heap)
