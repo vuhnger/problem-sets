@@ -28,7 +28,6 @@ class Codec:
         return '\t'.join(tree) 
 
     def deserialize(self, data):
-        """Decodes your encoded data to tree."""
         if not data:
             return None
 
